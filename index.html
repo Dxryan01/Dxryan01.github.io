@@ -7,11 +7,98 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section id="accueil"></section>
-    <section id="montagne"></section>
-    <section id="foret"></section>
-    <section id="rocher"></section>
-    <section id="contact"></section>
+    <header class="entete">
+        <a href="#accueil" class="logo">&gt; dxryan</a>
+        <nav aria-label="Navigation principale">
+            <ul>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <div class="panneau">
+            <div class="barre">
+                <span></span><span></span><span></span>
+                <p>dxryan@portfolio:~</p>
+            </div>
+            <p class="ligne"><span class="prompt">$</span> whoami</p>
+            <h1>dxryan</h1>
+            <p class="sous-titre">Étudiant en sécurité informatique</p>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <div class="conteneur">
+            <h2><span class="prompt">&gt;</span> a_propos/</h2>
+            <p class="texte intro">Étudiant en deuxième année de licence en sécurité informatique à l'IFRI. Le numérique me passionne, tout comme les histoires qui se cachent derrière l'informatique.</p>
+            <ul class="infos">
+            <li>
+                <span class="cle">objectif</span>
+                <span>Progresser sans cesse, et ouvrir la cybersécurité à l'IA : l'utiliser comme assistance, et apprendre à la protéger.</span>
+            </li>
+            <li>
+                <span class="cle">hors_cours</span>
+                <span>Anime, sport automobile et moto, en simple passionné, sans excès.</span>
+            </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="conteneur">
+            <h2><span class="prompt">&gt;</span> projets/</h2>
+            <div class="cartes">
+
+            <article class="carte">
+                <p class="numero">01</p>
+                <h3>OverTheWire-Bandit-WriteUps</h3>
+                <p>Write-ups complets du wargame Bandit, sans divulguer les mots de passe.</p>
+                <ul class="badges"><li>Linux</li><li>Bash</li><li>Write-ups</li></ul>
+                <a href="https://github.com/Dxryan01/overthewire-writeups/blob/main/bandit/README.md" target="_blank" rel="noopener noreferrer">Voir sur GitHub →</a>
+            </article>
+
+            <article class="carte">
+                <p class="numero">02</p>
+                <h3>IFRI MentorLink</h3>
+                <p>Plateforme de mentorat entre étudiants de l'IFRI, conçue en équipe.</p>
+                <ul class="badges"><li>Flask</li><li>PostgreSQL</li><li>Équipe</li></ul>
+                <a href="https://github.com/Geoffroy-Dhn/PIL1_2526_44" target="_blank" rel="noopener noreferrer">Voir sur GitHub →</a>
+            </article>
+
+            <article class="carte">
+                <p class="numero">03</p>
+                <h3>CyberTrack</h3>
+                <p>Suivi des cours, CTFs et projets cyber : à faire, en cours, terminé.</p>
+                <ul class="badges"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+                <a href="https://github.com/Dxryan01/CyberTrack" target="_blank" rel="noopener noreferrer">Voir sur GitHub →</a>
+            </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="conteneur">
+            <h2><span class="prompt">&gt;</span> contact/</h2>
+            <ul class="contacts">
+            <li>
+                <span class="cle">github</span>
+                <a href="https://github.com/Dxryan01" target="_blank" rel="noopener noreferrer">github.com/Dxryan01</a>
+            </li>
+            <li>
+                <span class="cle">linkedin</span>
+                <a href="https://www.linkedin.com/in/adler-degbelo-7022783b9/" target="_blank" rel="noopener noreferrer">Mon profil LinkedIn</a>
+            </li>
+            <li>
+                <span class="cle">discord</span>
+                <button type="button" class="copier" data-valeur="dxryan.x" aria-label="Copier mon pseudo Discord">dxryan.x</button>
+            </li>
+            </ul>
+        </div>
+    </section>
     <script src="js/main.js"></script>
 </body>
 </html>
